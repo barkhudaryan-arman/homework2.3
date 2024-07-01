@@ -4,3 +4,4 @@ public interface Vehicle {
     void updateTyre();
     void service();
 }
+

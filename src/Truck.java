@@ -1,10 +1,9 @@
-public class Truck implements Vehicle {
+public class Truck extends AbstractVehicle {
     private String modelName;
     private int wheelsCount;
 
     public Truck(String modelName, int wheelsCount) {
-        this.modelName = modelName;
-        this.wheelsCount = wheelsCount;
+        super(modelName,wheelsCount);
     }
 
     @Override
