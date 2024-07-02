@@ -1,6 +1,6 @@
 public abstract class AbstractVehicle implements Vehicle {
-    private String modelName;
-    private int wheelsCount;
+    protected String modelName;
+    protected int wheelsCount;
 
     public AbstractVehicle(String modelName, int wheelsCount) {
         this.modelName = modelName;

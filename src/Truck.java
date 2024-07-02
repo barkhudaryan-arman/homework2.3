@@ -1,6 +1,5 @@
 public class Truck extends AbstractVehicle {
-    private String modelName;
-    private int wheelsCount;
+
 
     public Truck(String modelName, int wheelsCount) {
         super(modelName,wheelsCount);

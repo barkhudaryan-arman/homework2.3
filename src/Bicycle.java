@@ -1,6 +1,5 @@
 public class Bicycle extends AbstractVehicle {
-    private String modelName;
-    private int wheelsCount;
+
 
     public Bicycle(String modelName, int wheelsCount) {
         super(modelName,wheelsCount);
